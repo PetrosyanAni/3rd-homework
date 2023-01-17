@@ -8,7 +8,7 @@ public class Homework1 {
             for (j = 0; j < integers[i].length; j++) {
 
                 System.out.println("first element:" + integers[i][j] + " ");
-                System.out.println("last element:" + integers[i][integers[1].length - 1] + " ");
+                System.out.println("last element:" + integers[i][integers[i].length - 1] + " ");
                 break;
             }
             System.out.println();
